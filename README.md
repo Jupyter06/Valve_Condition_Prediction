@@ -37,6 +37,14 @@ Pour chaque cycle de production :
 ⚠️ Les variables **CP, CE, SE** ont été exclues :
 > Elles décrivent directement l’état du système et introduisent une **fuite d’information (data leakage)**.
 
+Colonne	Signification
+0	état refroidisseur
+1	état valve (%) ← CIBLE
+2	fuite pompe
+3	accumulateur
+4	stabilité
+
+
 ---
 
 ## ⚙️ Méthodologie
