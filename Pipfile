@@ -9,6 +9,8 @@ pandas = "*"
 scikit-learn = "*"
 seaborn = "*"
 xgboost = "*"
+joblib = "*"
+streamlit = "*"
 
 [dev-packages]
 ipykernel = "*"
