@@ -1046,7 +1046,7 @@ elif page == "📈 Résultats":
         st.markdown(f"### 📊 Métriques de Performance - {model_label}")
         
         st.info("""
-        Les métriques ci-dessous ont été calculées sur un ensemble de test de **441 cycles** 
+        Les métriques ci-dessous ont été calculées sur un ensemble de test de **205 cycles** 
         lors de l'entraînement du modèle.
         """)
         
