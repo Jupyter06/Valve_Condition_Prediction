@@ -1046,8 +1046,7 @@ elif page == "📈 Résultats":
         st.markdown(f"### 📊 Métriques de Performance - {model_label}")
         
         st.info("""
-        Les métriques ci-dessous ont été calculées sur un ensemble de test de **205 cycles** 
-        lors de l'entraînement du modèle.
+        Les performances ont été évaluées sur un ensemble de test composé de 205 cycles, correspondant aux cycles les plus récents, conformément à la contrainte imposant l’utilisation des 2000 premiers cycles pour l’entraînement.
         """)
         
         # MÉTRIQUES DU MODÈLE UTILISÉ
